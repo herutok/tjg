@@ -29,9 +29,9 @@ else
 echo -e "version anda tidak terdeteksi!"
 exit
 fi
-wget --no-check-certificate "https://raw.githubusercontent.com/wegare123/tjg/main/tjg.sh" -O /usr/bin/tjg
-wget --no-check-certificate "https://github.com/wegare123/tjg/blob/main/trojan-go_0.10.2-mt7620_mipsel_24kc.ipk?raw=true" -O ~/trojan-go.ipk
-wget --no-check-certificate "https://raw.githubusercontent.com/wegare123/tjg/main/autorekonek-tjg.sh" -O /usr/bin/autorekonek-tjg
+wget --no-check-certificate "https://raw.githubusercontent.com/herutok/tjg/main/tjg.sh" -O /usr/bin/tjg
+wget --no-check-certificate "https://github.com/herutok/tjg/blob/main/trojan-go_0.10.2-mt7620_mipsel_24kc.ipk?raw=true" -O ~/trojan-go.ipk
+wget --no-check-certificate "https://raw.githubusercontent.com/herutok/tjg/main/autorekonek-tjg.sh" -O /usr/bin/autorekonek-tjg
 opkg install ip-full ipset lsof fping && opkg install *.ipk
 chmod +x /usr/bin/tjg
 chmod +x /usr/bin/autorekonek-tjg
